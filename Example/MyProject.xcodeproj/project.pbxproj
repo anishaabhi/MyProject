@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		136BABE532F970E0DF8F8165 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		136BABE532F970E0DF8F8165 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1D4094AC905316A0663007A3 /* Pods_MyProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyProject_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E846DD4BE8FF70C28465BC6 /* Pods-MyProject_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyProject_Tests/Pods-MyProject_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5BAD8142BEAA9F8080199CCA /* Pods-MyProject_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyProject_Tests/Pods-MyProject_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -29,8 +29,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		7D7228B8084E4623CCDA07CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		DEF81D752801B545FAC05103 /* MyProject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyProject.podspec; path = ../MyProject.podspec; sourceTree = "<group>"; };
+		7D7228B8084E4623CCDA07CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DEF81D752801B545FAC05103 /* MyProject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyProject.podspec; path = ../MyProject.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +151,7 @@
 				ORGANIZATIONNAME = anisha;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = 7Q5CZS8HV4;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -332,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5BAD8142BEAA9F8080199CCA /* Pods-MyProject_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7Q5CZS8HV4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -355,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3E846DD4BE8FF70C28465BC6 /* Pods-MyProject_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7Q5CZS8HV4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

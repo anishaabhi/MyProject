@@ -1,0 +1,22 @@
+{
+  "name": "MyProject",
+  "version": "0.1.0",
+  "summary": "A short description of MyProject.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/anisha/MyProject",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "anisha": "anisha.s@emudhra.com"
+  },
+  "source": {
+    "git": "https://github.com/anisha/MyProject.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MyProject/Classes/**/*"
+}
